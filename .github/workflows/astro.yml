@@ -42,12 +42,12 @@ jobs:
         uses: borales/actions-yarn@v4
         with:
           cmd: install
-      - name: Setup Pages
+      - name: 📄 Setup Pages
         id: pages
         uses: actions/configure-pages@v4
       - name: 🚀 Build with Astro
         run: |
-          ${{ steps.detect-package-manager.outputs.runner }} astro build \
+          npm run astro build \
             --site "${{ steps.pages.outputs.origin }}" \
             --base "${{ steps.pages.outputs.base_path }}"
         working-directory: ${{ env.BUILD_PATH }}
