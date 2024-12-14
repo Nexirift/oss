@@ -8,6 +8,7 @@ export default defineConfig({
       "https://github.com/Nexirift/plugin-keycloak-example",
     "/plugin-oidc": "https://github.com/Nexirift/plugin-oidc",
     "/plugin-oidc-example": "https://github.com/Nexirift/plugin-oidc-example",
-    "/spark": "https://github.com/Nexirift/spark",
+    "/spark": "https://github.com/Nexirift/nova",
+    "/nova": "https://github.com/Nexirift/nova",
   },
 });
